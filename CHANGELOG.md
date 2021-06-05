@@ -1,3 +1,3 @@
-## [0.0.1] - TODO: Add release date.
+# [0.0.1] - 06-06-21
 
-* TODO: Describe initial release.
+* Trying to give solution for empty screens like No Internet or No Data.

@@ -1,8 +1,8 @@
 name: flutter_empty_illustration
 description: Empty Screens, No Data Found, No Internet Connection Screen for Flutter
 version: 0.0.1
-author:
-homepage:
+author: Pratik Butani<pratik13butani@gmail.com>
+homepage: https://github.com/pratikbutani/flutter_empty_illustration
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
