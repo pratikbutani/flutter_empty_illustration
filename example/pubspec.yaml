@@ -42,8 +42,9 @@ dev_dependencies:
 # The following section is specific to Flutter.
 flutter:
   assets:
+    - packages/flutter_empty_illustration/assets/no_data_found.json
     - packages/flutter_empty_illustration/assets/no_internet_connection.json
-
+    - assets/
 
 
   # The following line ensures that the Material Icons font is
