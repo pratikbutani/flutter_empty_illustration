@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
 class NoInternetWidget extends StatelessWidget {
-  const NoInternetWidget({Key key, this.message = "Internet Connection Not Available"}) : super(key: key);
+  const NoInternetWidget({Key? key, this.message = "Internet Connection Not Available"}) : super(key: key);
 
   final String message;
 
@@ -35,7 +35,7 @@ class NoInternetWidget extends StatelessWidget {
 }
 
 class NoDataFoundWidget extends StatelessWidget {
-  const NoDataFoundWidget({Key key, this.message = "No Data Found"}) : super(key: key);
+  const NoDataFoundWidget({Key? key, this.message = "No Data Found"}) : super(key: key);
 
   final String message;
 
@@ -66,10 +66,10 @@ class NoDataFoundWidget extends StatelessWidget {
 }
 
 class CustomNoInternetWidget extends StatelessWidget {
-  CustomNoInternetWidget({Key key, this.textWidget = _textWidget, this.imageWidget}) : super(key: key);
+  CustomNoInternetWidget({Key? key, this.textWidget = _textWidget, this.imageWidget}) : super(key: key);
 
   final Widget textWidget;
-  final Widget imageWidget;
+  final Widget? imageWidget;
 
   static const Widget _textWidget = Text(
     "No Internet Connection",
